@@ -23,6 +23,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	font-family: 'Dancing Script';
 }
 
 /* section 1 */
@@ -46,6 +47,7 @@
 .p1-box1 {
 	width: 400px;
 	margin-bottom: 120px;
+	font-family: 'Kaushan Script', cursive;
 }
 .box-1-2 {
 	display: flex;
@@ -112,22 +114,20 @@
 	text-align: center;
 	justify-content: space-between;
 }
-.block4-1 {
-	background: #FBBA77;
-	width: 370px;
-	height: 451px;
-}
 .block-4 p {
 	width: 328px;
 	margin-top: 22px;
 	margin-bottom: 31px;
 	color: #FFFFFF;
 	font-size: 16px;
+	font-family: 'Kaushan Script', cursive;
 }
 .block-4 h3 {
 	margin-top: 57px;
 	color: #FFFFFF;
 	font-size: 22px;
+	font-family:'../fonts/Titan One';
+
 }
 
 .block-4 h4 {
@@ -142,6 +142,7 @@
 	align-items: center;
 	margin: 0 auto;
 	transition: all 0.5s linear;
+	font-family: 'Shadows Into Light', cursive;
 }
 
 .block-4 h4:hover {
@@ -152,34 +153,55 @@
 	height: 91px;
 }
 
+.block4-1 {
+	background: #FBBA77;
+	width: 370px;
+	height: 451px;
+	box-shadow: 5px 5px 26px #DFA871;
+	background: linear-gradient( 180deg, #FBBA77, #DFA871);
+}
 
 .block4-2 {
 	background: #41EAE3;
 	width: 370px;
 	height: 451px;
+	box-shadow: 5px 5px 26px #2293B7;
+	background: linear-gradient(-90deg, #41eae3 0.00%, #2293b7 100.00%);
 }
+
+
 .block4-3 {
 	background: #69529F;
 	width: 370px;
 	height: 451px;
+	box-shadow: 5px 5px 26px #463864;
+	background: linear-gradient( 90deg, #69529F 0.00%, #463864 100.00%);
+
 }
 .block4-4 {
 	background: #4386D2;
 	width: 370px;
 	height: 451px;
 	margin-top: 60x;
+	box-shadow: 5px 5px 26px #0962C5;
+	background: linear-gradient( to left, #4386D2 0.00%, #0962C5 100.00%);
+
 }
 .block4-5 {
 	background: #A5A2F6;
 	width: 370px;
 	height: 451px;
 	margin-top: 60x;
+	box-shadow: 5px 5px 26px #564FD6;
+	background: linear-gradient( to top, #A5A2F6 0.00%, #564FD6 100.00%);
 }
 .block4-6 {
 	background: #FF8088;
 	width: 370px;
 	height: 451px;
 	margin-top: 60x;
+	box-shadow: 5px 5px 26px #984141;
+	background: linear-gradient( to right, #FF8088 0.00%, #984141 100.00%);
 }
 .wrap-block4 {
 /*	margin: 0 auto;
